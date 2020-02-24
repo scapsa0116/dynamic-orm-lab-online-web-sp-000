@@ -41,4 +41,9 @@ def initialize(options={})
     end
     values.join(", ")
   end
+  
+  def save 
+    
+    
+  end 
 end
