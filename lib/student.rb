@@ -20,5 +20,6 @@ def self.column_names
     end
     column_names.compact
   end
+  
 
 end
