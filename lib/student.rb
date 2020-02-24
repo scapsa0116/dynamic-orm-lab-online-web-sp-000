@@ -21,7 +21,9 @@ def self.column_names
     column_names.compact
   end
   
-  def initialize(options = {})
-options.each do |proprety, value|
+def initialize(options = {})
+  options.each do |proprety, value|
   self.send("#{proprety}=", value)
+  end 
+end 
 end
