@@ -23,5 +23,5 @@ def self.column_names
   
   def initialize(options = {})
 options.each do |proprety, value|
-  
+  self.send
 end
