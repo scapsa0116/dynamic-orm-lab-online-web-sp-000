@@ -8,5 +8,8 @@ def self.table_name
   self.to_s.downcase.pluralize
 end 
 
-def self.
+def self.column_names
+  DB[:comm]
+  
+end 
 end
