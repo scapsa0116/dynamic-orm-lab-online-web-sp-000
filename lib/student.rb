@@ -32,4 +32,6 @@ def initialize(options={})
   end
   
   def col_names_for_insert
+    self.class.col_name
+  end 
 end
