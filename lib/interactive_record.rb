@@ -34,6 +34,7 @@ def initialize(options={})
    self.class.column_names.delete_if {|col| col == "id"}.join(", ")
   end 
   
-  def 
+  def values_for_insert
+    sql = "INSERT INTO #{table_name_for_insert} (#{col_names_for_insert} VALUES (#{"
 
 end
